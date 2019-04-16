@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <link rel="shortcut icon" href="./assets/Pokeball.png">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <title>Pokemon</title>
+</head>
+
+<body>
+    <div id="game">
+        <div id="nav-bar">
+            <img id="heart_img" src="./assets/heart.png">
+            <p id="health"></p>
+            <img id="hero_img" src="./assets/bulbasaurfull.png">
+            <button onclick='window.open("index.html", "_self" );' class="nav-btn">Home</button>
+            <button onclick='window.open("hero.html", "_self" );' class="nav-btn">Character</button>
+            <button onclick='window.open("level.html" + "?" + heroIndex, "_self" );' class="nav-btn">Level</button>
+        </div>
+        <div id="game-body"></div>
+    </div>
+    <script src="./js/hero.js"></script>
+    <script src="./js/bullet.js"></script>
+    <script src="./js/enemy.js"></script>
+    <script src="./js/game.js"></script>
+    <div id="won">
+        <p>YOU WON</p><br>
+        <img src="./assets/won.gif">
+    </div>
+    <div id="lost">
+        <p>YOU LOST</p><br>
+        <img src="./assets/lose.gif">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+body{
+  background: url(../assets/pokemon_.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#start_button{
+  background-color: #FFCC00;
+  color: #84817a;
+  padding: 15px 32px;
+  margin-bottom: 25px;
+  font-size: 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  border: 8px solid #345ABA;
+  margin-bottom: 0px;
+}
+
+
+#start_button:hover {
+  background-color: #345ABA;
+  color: white;
+}
+
+
+#menu{
+  text-align: center;
+  position: fixed;
+  left: 44%;
+  margin-left: -50px;
+  top: 10%;
+  margin-top: -50px;
+  height: 180px;
+  width: 180px;  
+}
+
+
+#gif-start{
+  margin-top: 0px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}

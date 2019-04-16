@@ -1,0 +1,22 @@
+body {
+    background-image: url("../assets/our.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#start_button {
+    color: #84817a;
+    padding: 15px 32px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    border: 3px solid #84817a;
+    border-radius: 12px;
+    cursor: pointer;
+}
+h2{
+    font-size: 50px;    
+    color: #BC3500;
+}
+img{
+      width: 50%;
+}

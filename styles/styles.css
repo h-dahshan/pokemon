@@ -1,0 +1,89 @@
+html {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#game {
+    width: 100%;
+    height: 100%;
+}
+
+#game-body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#nav-bar {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+#health {
+    color: gold;
+    font-size: 30px
+}
+
+.label {
+    color: yellow;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#hero_img {
+    margin-left: 40%;
+    width: 50;
+    height: 50;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+p {
+    display: inline;
+}
+
+#won, #lost {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 40%;
+    background: transparent;
+    z-index: 3;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#won p, #lost p {
+    display: inline-block;
+    color: teal;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#won img, #lost img {
+    width: 250px;
+    height: 250px;
+}
+
+.nav-btn {
+    float: right;
+    border: 3px solid #b2bec3;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 20px;
+    background-color: gold;
+    Width: 100px;
+}
+
+#heart_img {
+    width: 40;
+    height: 40;
+}
